@@ -22,8 +22,7 @@ Now This model is used to calculate if this is right.
 
 Also, this model can also explain the Brown Motion.
 """
-DOC = """
-Suppose that a drunk drank too much and could not go along a straight line.
+DOC = """Suppose that a drunk drank too much and could not go along a straight line.
 He starts his 'journey' from a street lamp.
 Suppose his moving follows the following rules:
 
