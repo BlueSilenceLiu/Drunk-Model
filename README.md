@@ -26,6 +26,8 @@ Now This model is used to calculate if this is right.
 
 Also, this model can also explain the Brown Motion.
 ```
+By the way, if you want to know how do we calculate, look at this:  
+[^text]
 
 ## About us
 We are a team (only one person) that provides good products.  
@@ -109,3 +111,27 @@ print("time:"+str(b-a)+"s")
 ```
 (You can see it at <a href="https://github.com/BlueSilenceLiu/Genetic/tree/main">Genetic</a>  
 Want to find more?<a href="https://github.com/BlueSilenceLiu?tab=repositories">Click me!</a>
+
+
+[^text] Suppose the moving is spreaded to two direction: Motion of x-axis and Motion of y-axis.  
+Then suppose they are X and Y.
+Suppose each step is l and on x and y axis are $$\overline{x} and \overline{y}$$
+Then 
+$$ X = x_{1} + x_{2} + ... + x_{n} 
+Y = y_{1} + y_{2} + ... + y_{n} $$
+Acording to the *Pythagoras Theorem*
+$$ 
+( \overline{L} )^{2} = X^{2} + Y^{2}
+=(x_{1} + x_{2} + ... + x_{n} )^{2} + ( y_{1} + y_{2} + ... + y_{n} )^{2}
+=x^{2}_{1} + x^{2}_{2} + ... + x^{2}_{n} + 2 x_{1} x_{2} + 2 x_{1}x_{3} + ... + 2 x_{n-1} x_{n} + y^{2}_{1}......
+=x^{2}_{1} + x^{2}_{2} + ... + x^{2}_{n} + y^{2}_{1} + y^{2}_{2} + ... + y^{2}_{n}     (everyone of \{x_{n},n \in \mathbb{N} \} multiply another is either positive or negative, as a result, in an average situation the sum of the products is zero)
+=n \overline{x}^{2} + n \overline{y}^{2}
+=n(\overline{x}^{2} + \overline{y}^{2})
+=n l^{2}
+
+\because \overline{L} ^{2} = n l^{2}
+\therefore \overline{L} = \sqrt{n l^{2}}
+=\sqrt{n} l
+$$
+Now because l = 1
+therefore, $$\overline{L} = \sqrt{n}$$
