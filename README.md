@@ -108,5 +108,5 @@ print("</doc>")
 b = t.perf_counter()
 print("time:"+str(b-a)+"s")
 ```
-(You can see it at <a href="https://github.com/BlueSilenceLiu/Genetic/tree/main">Genetic</a>  
+(You can see it at <a href="https://github.com/BlueSilenceLiu/Genetic/tree/main">Genetic</a>)  
 Want to find more?<a href="https://github.com/BlueSilenceLiu?tab=repositories">Click me!</a>
