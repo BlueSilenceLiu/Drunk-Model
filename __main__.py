@@ -113,10 +113,10 @@ def main(*args):
     c2 = t.perf_counter()
     emulate_id += 1
     print("emulate[", emulate_id, "] = {")
-    print("\ttime:", c2 - c1 - 3, ",")
-    print("\tmoveTimes:", times_box.get(), ",")
-    print("\tmoveTimesSquareRoot:", m.sqrt(int(times_box.get())), ",")
-    print("\taverageDistance:", dist_sum / 100)
+    print("\ttime = ", c2 - c1 - 3, ",")
+    print("\tmoveTimes = ", times_box.get(), ",")
+    print("\tmoveTimesSquareRoot = ", m.sqrt(int(times_box.get())), ",")
+    print("\taverageDistance = ", dist_sum / 100)
     print("};")
 
 def exc(*args):
@@ -145,11 +145,11 @@ def resetFocus(*args):
 
 
 print("inf = {"
-      "\n\tname:Drunk Model;"
-      "\n\tversion:1.2.1;"
-      "\n\trecent-update-tick:1625655871;"
-      "\n\trecent-update-time:Wed Jul 7 19:04:31 2021"
-      "\n}")
+      "\n\tname = Drunk Model,"
+      "\n\tversion = 1.2.1,"
+      "\n\trecent-update-tick = 1625655871,"
+      "\n\trecent-update-time = Wed Jul 7 19:04:31 2021"
+      "\n};")
 emulate_id = 0
 # GUI data display
 
